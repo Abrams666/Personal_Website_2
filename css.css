@@ -234,7 +234,7 @@ main .blockheader{
 }
 #cover{
     height: 100vh;
-    background-image: url(picture/cover3.jpg);
+    background-image: url(picture/cover3.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -289,7 +289,7 @@ main .blockheader{
     gap: 20px;
 }
 #main1 div div{
-    background-image: url(picture/artwork.png);
+    background-image: url(picture/headshot.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,8 +298,9 @@ main .blockheader{
     min-height: 30vw;
 }
 #sip{
-    width: 100%;
+    width: 50%;
     height: auto;
+    font-size: larger;
     text-align: left;
     text-indent: 7%;
     color: var(--ltg);
@@ -338,16 +339,16 @@ main .blockheader{
     list-style-type: none;
 }
 #ele div{
-    background-image: url(picture/elementary.jpg);
+    background-image: url(/picture/elementary.webp);
 }
 #jun div{
-    background-image: url(picture/junior.jpg);
+    background-image: url(/picture/junior.webp);
 }
 #sen div{
-    background-image: url(picture/senior.jpg);
+    background-image: url(/picture/senior.webp);
 }
 #col div{
-    background-image: url(picture/college.jpg);
+    background-image: url(/picture/college.webp);
 }
 .schools ul li,.schools ul li a{
     color: var(--ltg);
@@ -628,3 +629,16 @@ footer div div a,footer div div a i{
         font-size: x-small;
     }
 }
+/*
+    _____         _____
+  _/     \_     _/     \_
+ /         \___/         \
+/                         \
+\          Abrams         /
+ \_         Arou        _/
+   \_                 _/
+     \_             _/
+       \_         _/
+         \_     _/
+           \___/
+*/
