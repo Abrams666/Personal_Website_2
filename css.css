@@ -278,7 +278,7 @@ main .blockheader{
     bottom: 5%;
     font-size: large;
     color: var(--ltg);
-    font-size: large;
+    font-size: large; 
 }
 #main1 div{
     display: flex;
@@ -297,6 +297,32 @@ main .blockheader{
     height: auto;
     min-height: 30vw;
 }
+#lans div, #int div, #intr div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 10%;
+}
+#lans div img, #int div img, #intr div img{
+    width: 95%;
+    height: auto;
+}
+#lans div ul, #int div ul, #intr div ul{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: start;
+    justify-content: center;
+    gap: 1vw;
+}
+#lans div ul li, #int div ul li, #intr div ul li{
+    width: max-content;
+    font-size: xx-large;
+    color: var(--ltg);
+    list-style-type: none;
+}
 #sip{
     width: 50%;
     height: auto;
@@ -305,32 +331,36 @@ main .blockheader{
     text-indent: 7%;
     color: var(--ltg);
 }
-#main2 div{
+#main2{
+    height: auto;
+}
+#sch{
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 5vh;
 }
 #main2 .schools{
     width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: left;
-    gap: 10vw;
+    justify-content: center;
+    gap: 10%;
 }
 #main2 .schools div{
-    width: 40%;
-    height: 40vh;
+    width: 100%;
+    height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 #main2 .schools ul{
+    width: 90%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -340,15 +370,19 @@ main .blockheader{
 }
 #ele div{
     background-image: url(/picture/elementary.webp);
+    border-radius: 10px;
 }
 #jun div{
     background-image: url(/picture/junior.webp);
+    border-radius: 10px
 }
 #sen div{
     background-image: url(/picture/senior.webp);
+    border-radius: 10px
 }
 #col div{
     background-image: url(/picture/college.webp);
+    border-radius: 10px
 }
 .schools ul li,.schools ul li a{
     color: var(--ltg);
@@ -402,11 +436,6 @@ main .blockheader{
     align-items: start;
     justify-content: left;
     gap: 20px;
-    transition: transform 0.5s;
-}
-#wor_main1 div a:hover{
-    transform: scale(1.03);
-    transition: transform 0.5s;
 }
 #wor_main1 div a img{
     width: 30%;
@@ -451,11 +480,6 @@ main .blockheader{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: transform 0.5s;
-}
-.shows a:hover{
-    transform: scale(1.1);
-    transition: transform 0.5s;
 }
 .shows a img{
     width: 100%;
@@ -589,6 +613,9 @@ footer div div a,footer div div a i{
     }
     #check:checked ~ nav ul li a i{
         margin-right: 2%;
+    }
+    #lans div ul li, #int div ul li, #intr div ul li{
+        font-size: x-small;
     }
     #main2 .schools{
         gap: 5vw;

@@ -1,0 +1,14 @@
+user-agent: *
+disallow: /picture/
+disallow: /web.config
+#    _____         _____
+#  _/     \_     _/     \_
+# /         \___/         \
+#/                         \
+#\          Abrams         /
+# \_         Arou        _/
+#   \_                 _/
+#     \_             _/
+#       \_         _/
+#         \_     _/
+#           \___/
