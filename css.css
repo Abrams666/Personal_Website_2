@@ -134,7 +134,7 @@ header{
     top: 0;
     left: 0;
 }
-header div{
+#headera{
     height: 80%;
     width: auto;
     display: flex;
@@ -143,11 +143,11 @@ header div{
     align-items: center;
     justify-content: space-between;
 }
-header div h1{
+#headera h1{
     color: var(--ltg);
     font-size: 4vh;
 }
-header div img{
+#headera img{
     width: auto;
     height: 80%;
     border-radius: 100000px;
@@ -353,14 +353,14 @@ main .blockheader{
     gap: 10%;
 }
 #main2 .schools div{
-    width: 100%;
+    width: 95%;
     height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 #main2 .schools ul{
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -621,7 +621,6 @@ footer div div a,footer div div a i{
         gap: 5vw;
     }
     #main2 .schools div{
-        width: 50%;
         height: 20vh;
     }
     .schools ul li,.schools ul li a{
