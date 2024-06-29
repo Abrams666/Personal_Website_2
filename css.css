@@ -297,6 +297,9 @@ main .blockheader{
     height: auto;
     min-height: 30vw;
 }
+#me{
+    border-radius: 10px;
+}
 #lans div, #int div, #intr div{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -411,6 +414,79 @@ main .blockheader{
     height: auto;
     border-radius: 10px;
     margin-bottom: 5%;
+}
+#timelinesssss{
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: start !important;
+}
+#timelines{
+    width: max-content;
+    height: auto;
+    border-left: 5px solid var(--dec1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+}
+.events{
+    width: fit-content !important;
+    height: auto !important;
+    position: relative;
+    left: -12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+.dot{
+    width: 20px !important;
+    height: 20px  !important;
+    border-radius: 100%;
+    background-color: var(--dec1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.dotdot{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+    background-color: var(--ltg);
+}
+.events img{
+    width: 10%;
+    height: 100%;
+    border-radius: 10px;
+}
+.timecontent{
+    width: max-content !important;
+    height: max-content !important;
+}
+.timecontent h4{
+    color: var(--ltg);
+    font-size: x-large;
+}
+.timecontent p{
+    color: var(--ltg);
+    font-size: large;
+}
+#down{
+    position: relative;
+    left: -16.5px;
+    top: 10px;
+}
+#down i{
+    color: var(--dec1);
+    font-size: xx-large;
 }
 #wor_main1 div{
     border: var(--ltg) solid 0px;
